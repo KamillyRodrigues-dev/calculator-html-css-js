@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="/css/style.css">
-    <script src="/js/javascript.js" defer></script>
+    <script src="/js/script.js" defer></script>
 </head>
 <body>  
     <main class ="calculator">
@@ -17,25 +17,25 @@
             </div>
         </header>
         <div class="box-buttons">
-            <button>C</button>
-            <button>DEL</button>
-            <button>%</button>
-            <button>/</button>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>*</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>-</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>+</button>
-            <button>.</button>
-            <button>0</button>
-            <button class="equal">=</button>
+            <button onclick="insertToDisplay('C')">C</button>
+            <button onclick="insertToDisplay('DEL')">DEL</button>
+            <button onclick="insertToDisplay('%')">%</button>
+            <button onclick="insertToDisplay('/')">/</button>
+            <button onclick="insertToDisplay('7')">7</button>
+            <button onclick="insertToDisplay('8')">8</button>
+            <button onclick="insertToDisplay('9')">9</button>
+            <button onclick="insertToDisplay('*')">*</button>
+            <button onclick="insertToDisplay('4')">4</button>
+            <button onclick="insertToDisplay('5')">5</button>
+            <button onclick="insertToDisplay('6')">6</button>
+            <button onclick="insertToDisplay('-')">-</button>
+            <button onclick="insertToDisplay('1')">1</button>
+            <button onclick="insertToDisplay('2')">2</button>
+            <button onclick="insertToDisplay('3')">3</button>
+            <button onclick="insertToDisplay('+')">+</button>
+            <button onclick="insertToDisplay('.')">.</button>
+            <button onclick="insertToDisplay('0')">0</button>
+            <button class="equal" onclick="insertToDisplay('=')">=</button>
         </div> <!--box-buttons-->
     </main>
 </body>
