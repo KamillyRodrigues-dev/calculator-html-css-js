@@ -80,6 +80,7 @@ button{
     box-shadow: 1px 1px 5px 2px #0000002c;
     font-family: "Poppins";
     font-size: 1.2em;
+    color: #000000;
 }
 
 button:hover{
